@@ -13,5 +13,6 @@ post '/exit' do
 end
 
 post '/kill-haproxy' do
-  system("pkill -f haproxy")
+  pid = exec("pidof haproxy")
+  Process.kill 'KILL', pid
 end
