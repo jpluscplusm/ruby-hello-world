@@ -2,8 +2,6 @@
 
 Simple app for testing that Ruby apps are runnable on Cloud Foundry.
 
+This branch is for testing walcies deployments.
+
 `GET /` returns `Hello, World!\n`
-
-`POST /exits` terminates the process cleanly
-
-`POST /crash` terminates the process with a kill -9
