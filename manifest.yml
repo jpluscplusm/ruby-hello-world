@@ -1,6 +1,6 @@
 ---
 applications:
-- name: walcies-hello-world
+- name: walkies-hello-world
   stack: cflinuxfs2
   memory: 36M
   instances: 1
