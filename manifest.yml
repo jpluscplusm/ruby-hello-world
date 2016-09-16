@@ -4,6 +4,5 @@ applications:
   stack: cflinuxfs2
   memory: 36M
   instances: 1
-  buildpack: https://github.com/DigitalInnovation/dachs-cf-buildpack-multi.git#debug
   env:
     GD_DEV_PASSWORD: password
